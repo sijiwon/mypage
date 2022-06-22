@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="시지원 - 프로필 링크">
+    <meta property="og:description" content="0622 처음 만들어 보는거,,">
+    <meta property="og:image" content="쫀떡이.jpg">
+    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+    <title>시지원 - 프로필 링크</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body {
+            background-color: gray;
+        }
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            background-color: green;
+            border-radius: 100%;
+
+            border : 2px solid white;
+
+            background-image: url('쫀떡이.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color: white;
+            font-size: 20px;
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+
+        }
+        .sub {
+            color: white;
+            font-size: 15px;
+
+            margin-top: 0px;
+
+        }.sub2 {
+            color: white;
+            font-size: 15px;
+
+            margin-top: 0px;
+
+
+            
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap  > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+
+            font-size: 14px;
+            font-weight: bold;
+            color: gray;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        .wrap  > a:hover {
+            background-color: #d3d1d1;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">시지원</h1>
+        <p class="sub">0622 처음 만들어보는거,,</P>
+        <p class="sub2">내 고양이 아님,,,</p>
+        <a target="_blank" href="">인스타그램</a>
+        <a target="_blank" href="">그냥 빈칸</a>
+
+    </div>
+    
+</body>
+</html>
